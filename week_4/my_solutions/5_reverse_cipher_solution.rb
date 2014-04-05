@@ -55,7 +55,6 @@ end
 
 # 6. Does this code look better or worse than your refactored solution
 #    of the original cipher code? What's better? What's worse?
-
 # Looks better, with Eiko we thought about experimenting with the code in order to optimize how to generate the hash.
 # This code shows that. Plus we wanted to iterate just one time but we didn't think about calling
 # the method include? over a hash. That could helped us.
@@ -63,7 +62,6 @@ end
 # is an incompleted program.
 
 # 7. Is this good code? What makes it good? What makes it bad?
-
 # This code seems to be good code, it uses appropiate methods. Is understadable, meaning its variables are well
 # define. I make it work just on strings so it goes straight from the input to the output without
 # holdign the result in an array and then joining that array back. Doing what I mention before might
