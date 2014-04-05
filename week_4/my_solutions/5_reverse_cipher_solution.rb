@@ -32,7 +32,7 @@ def translate_to_cipher(sentence)
       end
      end
   
-    return encoded_sentence # Returns the solutoin array converted to an array.
+    return encoded_sentence # Returns the solutoin array converted to an array/ Changed to return the STRING
 end
 
 
