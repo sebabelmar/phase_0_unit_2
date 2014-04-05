@@ -1,7 +1,7 @@
 # U2.W4: Refactor Cipher Solution
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge solo.
 
 
 # 1. Solution
@@ -63,6 +63,8 @@ end
 # each time we need it can be easy to undestand but slower.
 # The user interface thar this code generates is nos friendly and it doesn't interact. That could be a 
 # nice thing to add.
+# It is hard to test, because the space can be any of our 7 characters so we have 7 posible result
+# for each space. And it grows exponentially with each space in the sentence.
 
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
