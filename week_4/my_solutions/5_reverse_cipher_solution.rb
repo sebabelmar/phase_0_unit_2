@@ -66,8 +66,9 @@ end
 
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
-# Does this return the same thing every time? No because we set up the spaces like any of those 7 charaters
-# therefore it can different code but meaning the same in English.
+# Does this return the same thing every time?
+# No because we setted up the spaces like any of those 7 charaters
+# therefore, it can be different code but meaning the same in English.
 
 p translate_to_cipher("I want cookies")
 p translate_to_cipher("I want cookies")
