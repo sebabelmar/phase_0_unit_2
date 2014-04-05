@@ -39,27 +39,35 @@ end
 # Questions:
 # 1. What is the .to_a method doing?
 #  The method to_a turns an object into an array.
+
 # 2. How does the rotate method work? What does it work on?
 # The method rotate replace the value of each index of an array for the value x time to the rigth.
 # keeping the array at the same size of the original and replacing index -1 for 1.
+
 # 3. What is `each_char` doing?
 # The method each_char iterates over each character of an string and pass that element as a parameter into a block
+
 # 4. What does `sample` do?
 # The method sample, replicates one random value contained in an array.
+
 # 5. Are there any other methods you want to understand better?
 # The method .include? seems to be searching for a coincidence along the keys of a hash. But I'm not clear.
+
 # 6. Does this code look better or worse than your refactored solution
 #    of the original cipher code? What's better? What's worse?
-# Look better, with Eiko we thought to experiment with the code in order to optimize how to generate the hash.
-# Which this code shows that. Plus we wanted to iterate just one time but we didn't think about calling
+
+# Looks better, with Eiko we thought about experimenting with the code in order to optimize how to generate the hash.
+# This code shows that. Plus we wanted to iterate just one time but we didn't think about calling
 # the method include? over a hash. That could helped us.
-# now in comparision this code does not deal with numbers which for the exmaple we are working on,
-# is an incompleted program. If I could refactor this code I would zip the space characters into the hash.
+# Now in comparision, this code does not deal with numbers. Which for the exmaple we are working on,
+# is an incompleted program.
+
 # 7. Is this good code? What makes it good? What makes it bad?
+
 # This code seems to be good code, it uses appropiate methods. Is understadable, meaning its variables are well
 # define. I make it work just on strings so it goes straight from the input to the output without
 # holdign the result in an array and then joining that array back. Doing what I mention before might
-# mean that the code was makin something bad. Or defining alphabet instead of using ("a".."z").to_a
+# mean that the code was making something bad. Or defining alphabet instead of using ("a".."z").to_a
 # each time we need it can be easy to undestand but slower.
 # The user interface thar this code generates is nos friendly and it doesn't interact. That could be a 
 # nice thing to add.
@@ -69,6 +77,7 @@ end
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
 # Does this return the same thing every time?
+
 # No because we setted up the spaces like any of those 7 charaters
 # therefore, it can be different code but meaning the same in English.
 
