@@ -173,7 +173,17 @@ p north_korean_cipher("ribx^wxst:$wsyxl%osvie,$xlir$neter,#xlir%xli%asvph!")
 p north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw?")
 
 # Reflection
-
+# Great experience working with Eiko on this challenge. We spend several minutes taking about the directions and
+# as soon as we had everything figured out, we started.
+# Going through each line was really helpful. We got to understand some new methods plus the logic of it.
+# In the process of refactoring we figure that there where some unnecessary steps and we tried to came up with
+# some other ways to achieve the same. We didn’t have enough time and our lack of experience kind of stop us.
+# We stop 3 feet from gold, because of the code written on the following challenge.
+# Pursuit experimenting should be never stop, even if will take some time. Eiko was super close to maybe come up
+# with method like zip and reverse and maybe I could think about using include? over the hush in order to do not 
+# iterate 2 times one over he array an inside there over the hush.
+# We'll never know but at least we have the experience now.
+# As an addition we tried to make this code more readable and understandable to programmers and users.
 
 
 

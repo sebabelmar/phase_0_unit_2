@@ -90,4 +90,10 @@ p translate_to_cipher("1000") # here is the problem compared to the code on chal
 
 
 # 5. Reflection 
+# Mind blowing methods like zip, rotate and Include? on a hash make this code lot more readable, short, and fun.
+# I so glad I got to learn them because we had the hypothesis about them but not the practice before.
+# The combination of this challenge and the one before was for me and eye opener.
+# Ruby seems to have methods for everything and it is an open community of developers who contribute to the evolution
+# of this language. I don’t know why I had an static perspective about computer languages but now I now they are as dynamics
+# as our human ones.
 

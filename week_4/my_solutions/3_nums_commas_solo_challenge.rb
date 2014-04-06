@@ -70,3 +70,14 @@ p separate_comma(12345567) == "12,345,567"
 
 
 # 5. Reflection 
+
+# I started this challenge experimenting with the code. I passed all the tests and I was happy.
+# Until I started pseudo code. Verbalizing what I did made me realize that I was getting the format but not the correct
+# numbers.
+# Then I tested my code and boom. My solution was not solving anything.
+# So I refactored, that pretty much was re writing the whole thing.
+# Once again, my code, how I solve this problem works for 9 digit numbers or less. Bummer!
+# I think creating scenarios is not the way to go. But getting to solve the problems by understanding a generic scenarios
+# will fulfill my expectations. 
+# Fun challenge, and tricky because the spec was passing. Double gain here. 
+# Don't trust just the spec and expand the scenario. Coming soon.
