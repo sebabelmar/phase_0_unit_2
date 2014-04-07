@@ -14,7 +14,7 @@
 
 class Die
   def initialize(sides)
-    Seba
+    Seba week 5 
   end
   
   def sides
