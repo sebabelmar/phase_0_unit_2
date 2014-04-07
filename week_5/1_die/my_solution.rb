@@ -14,7 +14,7 @@
 
 class Die
   def initialize(sides)
-    # code goes here
+    Seba
   end
   
   def sides
