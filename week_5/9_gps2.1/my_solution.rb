@@ -19,9 +19,9 @@ def bakery_num(num_of_people, fav_food)
   
   case fav_food
   when "pie"
-    then pie_qty = order_qty
+    pie_qty = order_qty
   when "cake"
-    then cake_qty = order_qty
+    cake_qty = order_qty
   else
     cookie_qty = order_qty
   end
@@ -49,6 +49,10 @@ p bakery_num(130, "pie") == "You need to make 16 pie(s), 0 cake(s), and 2 cookie
 p bakery_num(41, "cake") == "You need to make 0 pie(s), 6 cake(s), and 5 cookie(s)." 
 
 
+# BONUS
+
+# WE DECIDE TO DO NOT WORK ON THE BONUS BECAUSE WE DIDN'T WORK WHEN WE PAIR 
+# AND NOW WE PREFER TO INVEST TIME ON THE OTHER CHALLENGES
 
 
 #  Reflection 
