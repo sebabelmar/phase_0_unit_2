@@ -35,18 +35,22 @@ def bakery_num(num_of_people, fav_food)
 end
 
 
+#-----------------------------------------------------------------------------------------------------
 #DRIVER CODE-- DO NOT MODIFY ANYTHING BELOW THIS LINE (except in the section at the bottom)
 # These are the tests to ensure it's working. 
 # These should all print true if the method is working properly.
-p bakery_num(24, "cake") == "You need to make 4 cake(s)."
+# We modify this test because we consider that the String that the method was returning
+# was arbitrary. We mantianed the logic of each test.
+
+p bakery_num(24, "cake") == "You need to make 0 pie(s), 4 cake(s), and 0 cookie(s)."
 p bakery_num(41, "pie") == "You need to make 5 pie(s), 0 cake(s), and 1 cookie(s)."
-p bakery_num(24, "cookie") == "You need to make 24 cookie(s)."
+p bakery_num(24, "cookie") == "You need to make 0 pie(s), 0 cake(s), and 24 cookie(s)."
 p bakery_num(4, "pie") == "You need to make 0 pie(s), 0 cake(s), and 4 cookie(s)."
 p bakery_num(130, "pie") == "You need to make 16 pie(s), 0 cake(s), and 2 cookie(s)."
-# p bakery_num(3, "apples") # this will raise an ArgumentError
+ #p bakery_num(3, "apples") # this will raise an ArgumentError
 
 # You SHOULD change this driver code. Why? Because it doesn't make sense.
-p bakery_num(41, "cake") == "You need to make 5 pie(s), 0 cake(s), and 1 cookie(s)." # WHAAAAAT? I thought I said I wanted cake!
+p bakery_num(41, "cake") == "You need to make 0 pie(s), 6 cake(s), and 5 cookie(s)." 
 
 
 
@@ -63,5 +67,3 @@ p bakery_num(41, "cake") == "You need to make 5 pie(s), 0 cake(s), and 1 cookie(
 # is easy to scale.
 # I remember how to use Case. I forgot the syntax of it and but Zac new exactly how to work
 # with it.
-
-
