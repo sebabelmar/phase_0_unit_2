@@ -1,7 +1,7 @@
 
 # U2.W5: A Nested Array to Model a Boggle Board
 
-# I worked on this challenge Sebastian Belmar
+# I worked on this challenge with Jake Persing
 
 $boggle_board = [["b", "r", "a", "e"],
                 ["i", "o", "d", "t"],
@@ -32,7 +32,6 @@ p create_word($boggle_board, [0,0],[1,0],[3,2],[3,3]) == "bike"
 p create_word($boggle_board, [1,1]) == 'o'
 p $boggle_board != []
 
-# Reflection 
 
 #-------------------------------------------------------------------------------
 
@@ -55,9 +54,6 @@ def get_row(row)
     $boggle_board[row]
 end
     
-
-
-
 # DRIVER TESTS GO BELOW THIS LINE
 #tests to see if row is negative
 begin
@@ -67,12 +63,7 @@ rescue ArgumentError => err
 end
 
 p fail == "You put in a negative row"
-
-p get_row(2) == ["e", "c", "l", "r"]
-
-# Reflection 
-
-
+p get_row(2) == %w{e c l r}
 
 #-------------------------------------------------------------------------------
 
@@ -108,10 +99,12 @@ begin
 rescue ArgumentError => err
   fail = err.message
 end
+
 p fail == "You put in a negative column"
 p get_col(2) == %w{a d l k}
 p get_col(3) == %w{e t r e} 
 
 
-
 # Reflection
+# universal variable
+# each index
