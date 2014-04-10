@@ -3,10 +3,6 @@
 # I worked on this challenge with: Zac Mitton
 
 
-
-
-
-
 # Our Refactored Solution
 
 def bakery_num(num_of_people, fav_food)
