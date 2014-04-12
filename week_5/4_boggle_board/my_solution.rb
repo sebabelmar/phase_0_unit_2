@@ -106,5 +106,8 @@ p get_col(3) == %w{e t r e}
 
 
 # Reflection
-# universal variable
-# each index
+# I learned at least 2 new things pairing with Jake. When to use a more efficient way to write arrays using %w{}, 
+# how to test a raise error and each_index was super helpful method.
+# This challenge is structured in a wierd way. It was hard to understand exactly what to do on part 1. The good things
+# was that part 2 and 3 were simple to solve. The only problem we found here was to decide how to access to the main array.
+# We decided to use a universal variable instead of adding an argument to each method or creating a class.

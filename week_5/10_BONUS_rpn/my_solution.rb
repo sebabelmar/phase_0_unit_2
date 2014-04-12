@@ -99,7 +99,11 @@ p fail == "input contains invalid characters"
 
 # 5. Reflection 
 
-# well understanting of how the pollish calculator works.
-# case clear understanding on building solution while iterating.
-# I think that is a really clever way to structure my mind. My tendency is to have blocks of solutions as result 
-# and finally operate over thos block to have  a solution.
+# I worked with Zaz Mitton on this challenge. The fact that Zac is attending DBC in Chicago and we met on our GPS makes DBC's experience
+# tremendoulsy amaizing for me.
+# When we start this challenge I thought that I rememeber how to use pollish notation because the HP 12c, which is the mos popular calculator
+# in the finance world. Well I use a TI so Zac showed lot more knowladge on that part of the challenge.
+# One really usefull thig that I got out by working with Zac was for the second time, solve problems when iterating.
+# I have a mindset of getting something that I'll use later to operate a solution. But Zac solves on the go and I think that that is some
+# thing that I need to master.
+# I thought this challenge will take us a long time to solve but it wasn't. We wrote some small Pseudo and jumped straight to the code.
