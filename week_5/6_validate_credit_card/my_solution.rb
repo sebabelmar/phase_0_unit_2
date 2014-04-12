@@ -125,8 +125,11 @@ p card.check_card == false
 
 
 # 5. Reflection 
-# inject
-# logic
-# raising error
-# solving all in one step_1
-# i = number_arr.length -1 was smart in order to iterate over it
+# I worked with Sam on this challenge, and again it was fun and beneficial.
+# We decided to follow the directions order and that was super helful. We got to sketch our program before start writing the code.
+# Some stuff challenge us while trying to solve it that requiered experimentation on IRB and method searching on google.
+# Comming up with a method that solves all step only in one was really fun and fulfilling.
+# Sam was really creative and efficient when writing the raise error syntax plus he wrote the correct way to iterrate over our array 
+# from the last element back to the frist one.
+# And we came up with a nice use of inject and split that made our code easy to undestand short and efficient.
+# I really want to see how others sove this challenge because it's open to creativity and I might be able to learn a lot from that.

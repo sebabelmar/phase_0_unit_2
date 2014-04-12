@@ -55,7 +55,7 @@ p bakery_num(41, "cake") == "You need to make 0 pie(s), 6 cake(s), and 5 cookie(
 # AND NOW WE PREFER TO INVEST TIME ON THE OTHER CHALLENGES
 
 
-#  Reflection 
+# Reflection 
 # This was a fun, challenging but time consuming one. I think it's fair for a messy 
 # code like the one DBC gave us.
 # Is was easy to undertand what the method was doing as soon as we re arrange the format.
