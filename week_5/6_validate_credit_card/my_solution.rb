@@ -1,7 +1,7 @@
 # U2.W5: Class Warfare, Validate a Credit Card Number
 
 
-# This challenge was worked on by Seba and Sam Davis.
+# This challenge was worked on by Seba Belmar and Sam Davis.
 
 # 2. Pseudocode
 
