@@ -71,16 +71,12 @@ end
 class CreditCard
     
   def initialize (number)
-
-    credit_card_len = number.to_s.length
-    raise ArgumentError.new("Your Credit Card number it's incorrect.") if (credit_card_len > 16 || credit_card_len < 16)
     @number = number
-
+    raise ArgumentError.new("Your Credit Card number it's incorrect.") if @number.to_s.length != 16
   end
   
-  def check_card
-      
-    number_arr = @number.to_s.split(//).map { |x| x.to_i }      
+  def check_card    
+    number_arr = @number.to_s.split(//).map(&:to_i)
     step_1 = []
     i = number_arr.length - 1
       
@@ -88,21 +84,18 @@ class CreditCard
       if i % 2 == 0
         dbl_dgt = (number_arr[i] * 2)
         if dbl_dgt >= 10
-            dbl_dgt = dbl_dgt.to_s.split(//).map { |x| x.to_i }
+            dbl_dgt = dbl_dgt.to_s.split(//).map(&:to_i)
             step_1 << dbl_dgt.pop << dbl_dgt.pop
         else
             step_1 << dbl_dgt
         end
       else
-        step_1 <<  number_arr[i]
+        step_1 << number_arr[i]
       end
       i -= 1
     end
       
-    sum = step_1.inject {|sum, x| sum += x}     
-    return true if sum % 10 == 0
-    return false if sum % 10 != 0
-      
+    step_1.inject(:+) % 10 == 0  
   end
     
 end
