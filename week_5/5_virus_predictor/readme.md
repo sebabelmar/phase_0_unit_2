@@ -3,7 +3,11 @@
 # U2.W5: Virus Predictor 
 
 
+<<<<<<< HEAD
 ## Learning Competencies
+=======
+## Learning Objectives
+>>>>>>> FETCH_HEAD
 - Identify and explain what code is doing
 - Create, access, and traverse nested data structures
 - Automate repetitive tasks using loops
@@ -11,7 +15,11 @@
 - Identify and rewrite repetitive code
 - Explain `private` and discuss when it would be used
 
+<<<<<<< HEAD
 ## Summary
+=======
+## Background
+>>>>>>> FETCH_HEAD
 
 The C.D.C. (Centers for Disease Control) is concerned about a recent form of deadly influenza. They've implemented the following program to predict the effect of the virus by state. Eventually they want to predict the spread of the virus, which is why that data is included.
 

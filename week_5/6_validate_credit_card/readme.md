@@ -3,6 +3,7 @@
 # U2.W5: Class Warfare, Validate a Credit Card Number
 
 
+<<<<<<< HEAD
 ## Learning Competencies
 - Iterate through data structures
 - Manipulate data within data structures
@@ -11,6 +12,16 @@
 
 
 ## Summary
+=======
+## Learning Objectives
+- Manipulate and access data within data structures
+- Decompose a problem into smaller, easier to solve components
+- Iterate through data structures and manipulate the content
+- Find and use built-in Ruby methods to solve challenges
+
+
+## Background
+>>>>>>> FETCH_HEAD
 Given a credit card number we should be able to validate whether it is valid based on the [Luhn algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm).
 
 While the word [algorithm](http://en.wikipedia.org/wiki/Algorithm) sounds scary you can just think of them as a series of steps you use to solve a specific problem.  An example algorithm:
@@ -50,4 +61,8 @@ Make sure you pseudocode! These are big steps and they are a bit complicated, so
 4. [Refactored Solution](../../references/refactoring.md)
 5. [Reflect](../../references/reflection_guidelines.md)
 6. Sync your changes (push your solution) to Github
+<<<<<<< HEAD
 7. [Review](../../references/review.md)
+=======
+7. [Review](../../references/review.md)
+>>>>>>> FETCH_HEAD

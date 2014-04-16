@@ -23,7 +23,11 @@ Just to make sure we keep things fun, we are going to have you work with `week_5
 
 When you make updates to the files, you should commit your work the same way you did for your website through the app. Include a commit message that describes what you've changed. For example: "added my solution for 2_die"
 
+<<<<<<< HEAD
 You need to submit your work through [this google form](https://docs.google.com/forms/d/1Y1UajPVN_68qSdQ1jNry6TJU4qaZ_UuhSVfoxuqBBOo/viewform) by Sunday at 11:59pm. Expect to submit the links from your repo for each challenge above. 
+=======
+You need to submit your work through a google form (TBD) by Sunday at 11:59pm. Expect to submit the links from your repo for each challenge above. 
+>>>>>>> FETCH_HEAD
 
 
 ## Resources
@@ -34,4 +38,8 @@ You need to submit your work through [this google form](https://docs.google.com/
 - [Ruby for Newbies](http://net.tutsplus.com/sessions/ruby-for-newbies)  
 - [Ruby Variable Scope](http://www.techotopia.com/index.php/Ruby_Variable_Scope) 
 - [GangesLearning (Videos)](https://www.youtube.com/user/GangesLearning)
+<<<<<<< HEAD
 - [The Well-Grounded Rubyist (Book)](http://www.manning.com/black2/) - This is a really great Ruby reference. We recommend getting it.  
+=======
+- [The Well-Grounded Rubyist (Book)](http://www.manning.com/black2/) - This is a really great Ruby reference. We recommend getting it.  
+>>>>>>> FETCH_HEAD

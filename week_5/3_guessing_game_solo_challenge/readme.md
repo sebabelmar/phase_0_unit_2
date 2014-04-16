@@ -3,13 +3,21 @@
 # U2.W5: Build a Simple Guessing Game **SOLO CHALLENGE**
 
 
+<<<<<<< HEAD
 ## Learning Competencies
+=======
+## Learning Objectives
+>>>>>>> FETCH_HEAD
 - Break down problems into implementable pseudocode 
 - Implement a basic Ruby class and identify when to use instance variables
 - Use if/else statements, string methods, while/until loops, Enumerable#each methods
 - Explain how instance variables and methods represent the characteristics and actions of an object
 
+<<<<<<< HEAD
 ## Summary
+=======
+## Background
+>>>>>>> FETCH_HEAD
 
 In this challenge you want to create a simple guessing game. Think in terms of when you were 7 and asked your friends to identify the number you were thinking. 
 

@@ -2,7 +2,11 @@
 
 # U1.W5: Technical Blog Entry
 
+<<<<<<< HEAD
 ## Learning Competencies
+=======
+## Learning Objectives
+>>>>>>> FETCH_HEAD
 - Explain when, why, and how to use classes
 - Explain how data structures and classes can model a real-world object
 

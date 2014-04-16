@@ -2,7 +2,11 @@
 
 # U2, W5: Cultural Blog - Issues in Tech
 
+<<<<<<< HEAD
 ## Learning Competencies
+=======
+## Learning Objectives
+>>>>>>> FETCH_HEAD
 - Identify a problem facing the tech world
 - Explain why it is a problem and some background
 - Hypothesize about potential solutions
