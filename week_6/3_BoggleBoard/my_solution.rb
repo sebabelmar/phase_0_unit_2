@@ -99,17 +99,11 @@ class BoggleBoard
 end
 =end
  
-dice_grid = [["b", "r", "a", "e"],
-             ["i", "o", "d", "t"],
-             ["e", "c", "l", "r"],
-             ["t", "a", "k", "e"]]
  
-#boggle_board = BoggleBoard.new(dice_grid)
-
 # 4. Refactored Solution
 class BoggleBoard
   def initialize(board = nil)
-    raise ArgumentError.new("Invalid Boggle Board") if board == nil
+    raise ArgumentError.new("Invalid Boggle Board") if board == nil || !board.is_a?(Array)
     @board = board
   end
   
@@ -143,8 +137,8 @@ class BoggleBoard
     end
     #assigned coord values to temp variables so we can manipulate them without changing the original coord
     x1 = start.first
-    y1 = start.last
     x2 = finish.first
+    y1 = start.last
     y2 = finish.last
     result = ''
     raise ArgumentError.new("This is not a diagonal") if y1 == y2
@@ -173,7 +167,12 @@ class BoggleBoard
   end
 end
 
-
+dice_grid = [["b", "r", "a", "e"],
+             ["i", "o", "d", "t"],
+             ["e", "c", "l", "r"],
+             ["t", "a", "k", "e"]]
+             
+             
 # 1. DRIVER TESTS GO BELOW THIS LINE
 # create driver test code to retrieve a value at a coordinate here:
 # implement tests for each of the methods here:
