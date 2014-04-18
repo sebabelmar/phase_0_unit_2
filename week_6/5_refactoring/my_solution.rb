@@ -92,4 +92,11 @@ cc_2 = CreditCard.new(4408041234567892)
 assert{cc_2.instance_of?(CreditCard)} #testing if cc_1 is an instance of the class Credit Crad
 assert{cc_2.check_card == false} #test Check Card method
 
+begin
+  cc_1 = CreditCard.new(44080412345678937) #test 17 dig
+rescue ArgumentError
+  p $!.to_s == "Number must be 16 digits long"
+end
+
+
 # Reflection 
