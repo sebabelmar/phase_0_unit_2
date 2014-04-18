@@ -15,7 +15,7 @@
 # DEFINE method that accept one parameter number and returns hight, correct or low depending to the result when comparing it to answare.
 # DEFINE method solved? that returns true when @number == to @answer and false otherwise.
 
-3. Initial Solution
+# 3. Initial Solution
 
 class GuessingGame
   def initialize(answer)
