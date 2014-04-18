@@ -143,8 +143,8 @@ class BoggleBoard
     end
     #assigned coord values to temp variables so we can manipulate them without changing the original coord
     x1 = start.first
-    x2 = finish.first
     y1 = start.last
+    x2 = finish.first
     y2 = finish.last
     result = ''
     raise ArgumentError.new("This is not a diagonal") if y1 == y2
