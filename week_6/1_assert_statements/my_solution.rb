@@ -14,18 +14,63 @@ assert { name == "bettysue" }
 assert { name == "billybob" }
 
 # 2. Pseudocode what happens when the code above runs
-
+=begin
+-- Let's work with the defined method assert that raises an error if the result of 
+a block is false
+-- Defined the variable name as a String with a specific value
+-- Passed the block on line 12 to the method assert, because the conditional is true assert
+does not raises an error
+-- Pass the block on line 13 to the method assert this time it raises an error because the 
+conditional is false
+=end
 
 
 # 3. Copy your selected challenge here
 
+class RPNCalculator
+  def evaluate (input)
 
+    raise ArgumentError.new("input must be a string") unless input.class.to_s == "String"
+    stack = []
+
+    input.split(" ").each do |element|
+      case element
+      when /[0-9]/
+        stack << element
+      when "+"
+        stack << (stack.pop.to_i + stack.pop.to_i)
+      when "*"
+        stack << (stack.pop.to_i * stack.pop.to_i)
+      when "-"
+        stack << (-1*(stack.pop.to_i - stack.pop.to_i))
+      else
+        raise ArgumentError.new("input contains invalid characters")
+      end
+    end
+
+    stack[0].to_i
+  end
+end
 
 
 # 4. Convert your driver test code from that challenge into Assert Statements
 
+def assert_1
+  raise "Invalid argument" unless yield
+end
 
+def assert_2
+  raise "Wrong Calculation" unless yield
+end
 
+calc = RPNCalculator.new
+
+assert_1 {RPNCalculator.instance_method(:evaluate).arity == 1}
+assert_2 {calc.evaluate('1 2 3 4 + + +') == (1 + 2 + 3 + 4)}
+assert_2 {calc.evaluate('1 2 + 3 4 + *') == ((2 + 1) * (4 + 3))}
+assert_2 {calc.evaluate('20 10 5 4 + * -') == (20 - 10*(5 + 4))}
+assert_2 {calc.evaluate('2 2 *') == (2 * 2)}
+assert_2 {calc.evaluate('-1') == -1}
 
 
 # 5. Reflection
