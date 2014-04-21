@@ -29,7 +29,7 @@ class Drawer
 		@contents << item if item.clean
 	end
 
-	def remove_item(item = @contents.pop) #what is `#pop` doing?
+	def remove_item(item = @contents.pop) #what is `#pop` doing? pop is extracting the last element of the array modifieng it.
 		@contents.delete(item)
 	end
 
@@ -129,3 +129,20 @@ assert{sharp_knife.clean == false}
 
 
 # 5. Reflection 
+=begin
+This challenge was lot more complicated than I thought. I was told that the directions of it weren't clear and I kind of forgot.
+Now that I’m reflecting on it I remembered that my friend was actually right.
+Any how I got a really good practice on understanding classes and it attr_reader Writer and accesor.
+It was fun to decipher how to work with classes and use its attributes from other ones. 
+I had a hard time trying to understand the logic of this program and I got a little ambitious on trying to write a fun
+logic to play around with them. Finally I gave up because I didn’t get the results that I was expecting and I spent too much time on it.
+I learned a lot out of this challenge, but I would like to have better directions. Maybe I should have read more about
+how to access to classes data from a outside of them or call them from an other class.
+=end
+
+
+
+
+
+
+
