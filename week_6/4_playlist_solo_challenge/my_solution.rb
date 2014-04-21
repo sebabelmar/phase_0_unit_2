@@ -149,7 +149,4 @@ my_playlist.play_all
 my_playlist.display
 
 
-
-
-
 # Reflection 

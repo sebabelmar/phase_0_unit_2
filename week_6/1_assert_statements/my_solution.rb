@@ -74,3 +74,10 @@ assert_2 {calc.evaluate('-1') == -1}
 
 
 # 5. Reflection
+=begin
+This new way to write Test is lot more professional looking, convenient and clear. Because it's raises and error and prints it only 
+when there is a bug in the code in comparison to true or false printed no matter what.
+It was fun to go through my own code and get to translate Rspec test into Assert Statements.
+I need to write a post blog about the different methods of testing code so I can stick all difference in my head an picture them out.
+I didn’t have any difficulties understanding this new topic. But I bet there are lot of details pending to discovery.
+=end
