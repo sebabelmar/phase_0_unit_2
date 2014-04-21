@@ -1,7 +1,7 @@
 # U2.W6: Refactoring for Code Readability
 
 
-# I worked on this challenge Eiko Seba.
+# I worked on this challenge Eiko Seino.
 
 
 # Original Solution
@@ -63,6 +63,8 @@
 
 
 # Refactored Solution
+# We kept the variable sum but not as a Instance variable that performed a method. We merge 2 methods into one and we 
+# simplify all the calculations into one line buy ceating a chain of methods replacing this way multiple lines of code.
 
 class CreditCard
   def initialize(num)
@@ -100,3 +102,14 @@ end
 
 
 # Reflection 
+=begin
+I'm so glad I answer Eiko's email to pair on this challenge because I learned a lot.
+It took us a long time to go through the code and understand how it was dealing with by setting instance variables as methods.
+We thought that was a really good idea and something that neither of us did before.
+Finally we decided to transform the code into something completely new. We got stuck by trying to keep some structure and when
+combining what Eiko wrote last week and my code.
+It took us hours but it was great. We wrote code, tests, we run our code multiple times, we re thought the logic and structure.
+Plus we experiment with multiple methods.
+Great pair session and awesome learning experience.
+Getting rid of bugs was tedious but life if just like that.
+=end
