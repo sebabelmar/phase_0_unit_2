@@ -88,11 +88,9 @@ class Song
 	def play
 		puts "Play: #{@title} from #{artist}"
 	end
-
 end
 
 class Playlist < Song
-
 	def initialize(*songs)
 		@songs = songs
 		@tracks = {}
@@ -123,7 +121,6 @@ class Playlist < Song
 		puts "This are your TUNES:"
 		@tracks.each {|artist, title| puts "#{artist} - #{title}"}
 	end
-
 end	
 
 
@@ -150,3 +147,16 @@ my_playlist.display
 
 
 # Reflection 
+=begin
+THE CHALLENGE OF THE WEEK.
+Yes! I learned a lot, but it I had to pay for it. I felt that "I’m not good at this at all!!".
+But I went away from my computer, and relax. I brought positive thought into my mind by playing the guitar and talking to my wife.
+After that boom, the child class was born.
+I not clear enough of how to use data that was save in an other class from an specific class. I really need to understand how to
+create those classes webs in other to build simple but useful programs with DRYness in mind.
+I tried to come up with a more interesting play method, but I think what I wrote was good.
+I like the fact that I was able to write something that it worked and then refactor it in a nice way.
+Not paring for a challenging exercise was great. Not saying that I don’t like to pair but I enjoyed my solo time.
+I learned that there are some times that initializing by using attr can become vital.
+And in other point it might be unnecessary.
+=end
